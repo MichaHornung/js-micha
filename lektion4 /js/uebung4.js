@@ -11,7 +11,7 @@ function aufgabe1() {
   let ampel = "gruen";
 
   //ToDo: füge ab hier deinen Code ein
-
+  if (ampel=="gruen"){console.debug("Du darfst fahren")}
 }
 
 /**
@@ -23,6 +23,7 @@ function aufgabe2() {
   let ampel = "rot";
 
   //ToDo: füge ab hier deinen Code ein
+  if (ampel!="gruen"){console.debug("Du musst halten")}
 }
 
 /**
@@ -34,7 +35,13 @@ function aufgabe3() {
   let ampel = "gruen";
 
   //ToDo: füge ab hier Deinen Code ein
-}
+  if (ampel=="gruen"){
+    console.debug("Du darfst fahren")
+  } else {console.debug("Du musst halten!")}
+
+
+  }
+
 
 /**
  * 4) Bastel deinen Switch Wochenkalender!
@@ -42,10 +49,28 @@ function aufgabe3() {
 function aufgabe4() {
   console.debug("Aufgabe 4 ==========================");
 
-  let tag = 5;
+  let tag = 4;
 
   //ToDo: füge ab hier Deinen Code ein
+  switch (tag){
+
+
+case 1:console.debug("Heut ist Montag")
+  break;
+case 2:console.debug("Heut ist Dienstag")
+  break;
+case 3:console.debug("Heut ist Mittwoch")
+  break;
+case 4:console.debug("Heut ist Donnerstag")
+  break;
+case 5:console.debug("Heut ist Freitag")
+  break;
+
+  default:
+    variable.tag("Die Woche hat genau 7 Tage!")}
+
 }
+
 
 /**
  * Hauptfunktion, in der die Aufgaben aufgerufen werden

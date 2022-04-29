@@ -8,6 +8,10 @@
 function artikel_Gekauft() {
     //ToDo: füge ab hier deinen Code ein
 
+
+
+
+
 }
 
 
