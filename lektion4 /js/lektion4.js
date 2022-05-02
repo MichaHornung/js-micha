@@ -7,9 +7,11 @@
  * 1) 1) Erstelle eine if-Anweisung, die abfragt, ob ein bestimmter Artikel bereits gekauft wurde */
 function artikel_Gekauft() {
     //ToDo: füge ab hier deinen Code ein
-
-
-
+let artikelname = "Streukäse"
+let artikel_Gekauft = true
+    if (artikel_Gekauft == true){
+        console.debug("[Artikel]", artikelname, "wurde gekauft")
+    }
 
 
 }
@@ -21,6 +23,12 @@ function artikel_Gekauft() {
  */
 function artikel_Hinzufuegen() {
     //ToDo: füge ab hier deinen Code ein
+    let gruppenName="Getreide"
+    let artikelName="Quinoa"
+
+    if (artikelName.length>0){
+        console.debug("["+ gruppenName +"]"+ artikelName + " hinzugefügt")
+    }
 
 }
 
@@ -29,9 +37,17 @@ function artikel_Hinzufuegen() {
  * existiert und dementsprechend passende Sätze auf der Konsole ausgibt
  */
 function gruppe_Hinzufuegen() {
-    // ToDo: füge ab hier deinen Code ein
+let  gleicheGruppe = []
+    let neueGruppe = "Getränke"
+    if (gleicheGruppe.length == 0) {
+        console.debug("[App] Gruppe " + neueGruppe + " hinzugefügt")
+    }  else {
+            console.debug("[App] Gruppe " + neueGruppe + " existiert schon")
+        }
+    }
 
-}
+
+
 
 /**
  * 4) Überprüfe mit Hilfe einer switch-case-Anweisung, ob ein bestimmter Artikel in dem Array `einkaufsliste` vorkommt
